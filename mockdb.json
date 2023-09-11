@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "agentID": "ABCD12345678",
+      "phone": "123-456-7890",
+      "pin": "hashed_pin",
+      "otp": "1234"
+    },
+    {
+      "agentID": "1234567",
+      "phone": "090343454",
+      "pin": "1234",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "agentID": "OQAS3WVuKe2y",
+      "role": "user",
+      "email": "ungle12@gmail.com",
+      "phone": "090343454",
+      "pin": "123456"
+    },
+    {
+      "id": 4,
+      "agentID": "8J9EhNv8DJ7V",
+      "role": "user",
+      "email": "ungle12@gmail.com",
+      "phone": "090343454",
+      "pin": "123456"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "senderId": 1,
+      "recipientId": 2,
+      "amount": 500,
+      "date": "2023-09-08",
+      "time": "12:30:45"
+    }
+  ],
+  "wallets": [
+    {
+      "userId": 1,
+      "balance": 1000
+    }
+  ]
+}
